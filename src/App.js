@@ -77,8 +77,14 @@ function App() {
 
     return (
         <div className="map">
-            <p className="top">Temperature: {((temp * 9) / 5 + 32).toFixed(2)}&#8457; </p>
-            <p className="top">Currently: {currentStatus}</p>
+			{ currentStatus ? 
+			<div>
+	            <p className="top">Temperature: {((temp * 9) / 5 + 32).toFixed(2)}&#8457; </p>
+				<p className="top">Currently: {currentStatus}</p>
+			</div>
+			:
+			null
+			}
             <h1 className="h1">Search for the weather by location:</h1>
 
             <form onSubmit={search}>
