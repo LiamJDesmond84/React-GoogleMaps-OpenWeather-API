@@ -2,6 +2,45 @@
   text-align: center;
 }
 
+.map {
+  margin-top: -0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.top {
+  font-size: 1.5em;
+  animation: pop 0.25s ease-in-out;
+  animation-delay: 1s;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.h1 {
+  animation: pop 0.25s ease-in-out;
+  animation-delay: 1s;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px rgb(141, 27, 248),
+    0 0 42px rgb(178, 113, 238),
+    0 0 82px rgb(155, 61, 243),
+    0 0 92px rgb(132, 0, 255),
+    0 0 102px rgb(49, 5, 90),
+    0 0 151px rgb(255, 0, 76);
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

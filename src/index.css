@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(
+    circle at top right,
+    #e4bb37, #6aaee6
+  );
+  height: 100vh;
 }
 
 code {
